@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="h-screen flex flex-col overflow-hidden">
+    <div className="h-fit flex flex-col">
       <main className="flex-1 flex flex-col items-center justify-center p-4">
         <div className="text-center max-w-sm">
           <h1 className="text-3xl md:text-4xl font-bold mb-4">JJ Pena</h1>
