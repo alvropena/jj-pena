@@ -11,15 +11,13 @@ export default function Home() {
       </main>
       
       <footer className="w-full p-8">
-        <div className="flex flex-col sm:flex-row justify-center items-center gap-4 text-sm text-gray-600 dark:text-gray-400 max-w-md mx-auto">
+        <div className="flex flex-row justify-center items-center gap-8 text-sm text-gray-600 dark:text-gray-400 max-w-md mx-auto">
           <a href="/about" className="hover:text-gray-900 dark:hover:text-gray-100 transition-colors">
             About
           </a>
-          <span className="hidden sm:inline text-gray-400">•</span>
           <a href="mailto:careers@jj-pena.com" className="hover:text-gray-900 dark:hover:text-gray-100 transition-colors">
             Careers
           </a>
-          <span className="hidden sm:inline text-gray-400">•</span>
           <a href="mailto:contact@jj-pena.com" className="hover:text-gray-900 dark:hover:text-gray-100 transition-colors">
             Contact
           </a>
