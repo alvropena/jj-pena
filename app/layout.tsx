@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${ebGaramond.variable} ${spectral.variable} antialiased bg-gray-900 text-white`}
+        className={`${ebGaramond.variable} ${spectral.variable} antialiased`}
       >
         {children}
       </body>
